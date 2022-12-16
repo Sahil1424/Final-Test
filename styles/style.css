@@ -1,0 +1,135 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+#main-nav{
+   background-color: lightskyblue;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    overflow: hidden;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+    padding-left: 17em;
+    padding-right: 17em; ;
+}
+#main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2.5em;
+}
+
+#main-nav ul li a:hover {
+    background-color:darkblue;
+}
+
+
+/* HEADER */
+body header{
+    height: 300px;
+    background: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    align-items: center;
+    gap: 1.5em;
+    color: white;
+}
+body header h1{
+    font-size: 3em;
+}
+body header h2{
+    font-size: 2em;
+}
+button{
+    width: 140px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    background: darkgray;
+    color: white;
+}
+button:hover {
+    background-color:rgb(6, 188, 249);
+    color: white;
+}
+
+/* MAIN CONTENT */
+#main-content{
+    background-color: white;
+    width: 100%;
+    margin: left 10px;
+    margin-right: 0%;
+    display: flex;
+    padding-top: 2em;
+}
+
+/* MAIN */
+main{ 
+  order: 2;
+}
+#figure-one{
+    width: 250px;
+    float: left;
+    order: 1;   
+}
+
+#figure-two{
+    width: 250px;
+    float: right;
+}
+
+/* ASIDE */
+
+aside{
+    order: 1;
+    width: 40%;
+    border-radius: 4.5px;
+    background: white;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+aside li:nth-of-type(even){
+    background: rgb(144, 138, 138);
+}
+aside h2{
+    background-color: rgb(8, 181, 239);
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    margin-bottom: 1.5 em;
+    margin-right: 1.5 em;
+}
+
+/* FOOTER */
+footer{
+    background: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+}
+
+#main-footer-content address{  
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
